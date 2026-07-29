@@ -1,0 +1,31 @@
+# data (public, but not committed - see data/README.md)
+data/*.xlsx
+data/*.csv
+data/fomc_statements/
+*.xlsx
+!results/*.xlsx
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# model caches
+.cache/
+huggingface/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+
+# latex build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
